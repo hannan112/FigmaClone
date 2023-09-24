@@ -101,7 +101,14 @@ nav {
 }
 
 #logo {
-  display: inline-block;
+    display: inline-block;
+    color: #6070FF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
 }
 
 #content {
@@ -114,8 +121,8 @@ nav {
   line-height: 52px; 
   word-wrap: break-word;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  left: 20px;
   margin-top: 20px;
 }
 
@@ -148,15 +155,14 @@ nav {
   color: #505F79;
 }
 
-#connect {
-  color: #7F8CFF;
-  font-size: 16px;
+#contact {
   font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   word-wrap: break-word;
   position: relative;
   top: 12px;
-  left: 24px;
-  right: 24px;
+  left: 20px;
 }
